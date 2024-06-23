@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="logic" href="logic.js">
+    <script src="logic.js"></script>
+</head>
+<body>
+  <section id="loginsec">
+     <div class="maindiv">
+      <form id="form">
+         <div class="space">
+            <h1 class="loginhead">Sign up form</h1>
+           
+         <div class="Uline"></div>
+      </div>
+         
+         <div class="inputbox name-field">
+             <label class="inputtext" for="name">Name</label>
+             <input type="text" name="username" id="name" placeholder="Enter your name" autocomplete="off" >
+             <div class="errornm"><span style="color:red" id="name_error"></span></div>
+          </div> 
+
+          <div class="inputbox">
+             <label class="inputtext" for="email">Email</label>
+             <input type="email" name="email" id="email" placeholder="Enter your email" >
+             <div class="errornm"><span style="color:red" id="email_error"></span></div>
+         </div>
+        
+          <div class="inputbox">
+             <label class="inputtext" for="password">Password</label>
+             <input type="password" name="password" id="password" placeholder="Enter your password" autocomplete="off" >
+             <div class="errornm"><span style="color:red" id="psswd_error"></span></div>
+           </div>
+                
+          <button type="button" class="signupbtn">Sign Up</button>
+          <button type="button" id="disable" class="loginbtn">Login</button>
+          </div>
+      </form>
+     </div>
+  </section>
+</body>
+</html>
